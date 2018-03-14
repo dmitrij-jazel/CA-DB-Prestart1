@@ -1,0 +1,50 @@
+
+body{
+	color:blue;
+}
+
+.redText{
+	color:red;
+}
+
+.greenText {
+	color:green;
+
+}
+
+.bigText{
+	font-size: 45px;
+}
+
+.smallText{
+	font-size:16px;
+}
+
+.christmas_background{
+	background-image: url("christmas-colour.png");
+	
+	/*background-image: url("https://www.toptal.com/designers/subtlepatterns/patterns/circles-dark.png");*/
+}
+
+.logoImg{
+	width:100px;
+	
+}
+
+.mainDiv{
+	color:red;
+}
+
+.lastDiv{
+	height:100px;
+	color:white;
+	background-image: url("https://www.toptal.com/designers/subtlepatterns/patterns/christmas-black.png");
+}
+
+.firstFraze{
+	font-size: 27px;
+}
+
+.secondFraze{
+	font-size: 14px;
+}
