@@ -1,0 +1,36 @@
+header{   
+    border:5px solid blue;
+    /*height:50px;*/
+}
+
+main{
+    border: 5px solid green;
+    /*height: 50px;*/
+    margin:0px auto;
+    width:1200px; /*960*/
+}
+
+footer{
+    
+    border: 5px solid purple;
+    font-size:20px;
+}
+
+#logo{
+    width:150px;
+}
+
+.container{
+    width:1200px;
+    margin:0px auto;
+}
+
+.topSpace{
+    padding-top:50px;
+}
+
+.copyright{
+    padding:30px 0px;
+    text-align: center;
+}
+
