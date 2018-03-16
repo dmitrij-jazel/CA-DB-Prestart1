@@ -1,0 +1,44 @@
+body{
+    padding:0px;
+    margin:0px;
+}
+
+.container {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.hero {
+    background: url("../img/bg-3.jpg") 0 center;
+    background-size: cover;
+    padding: 100px 0;
+    color: #fff;
+}
+
+.main-menu {
+    padding-left: 0;
+    text-align: right;
+}
+
+.main-menu > li {
+    display: inline-block;
+}
+
+.col-3 {
+    width: 33%;
+    display: inline-block;
+}
+
+.col-9 {
+    width: 66%;
+    display: inline-block;
+}
+
+.dropdown {
+    display: none;
+}
+
+.main-menu > li:hover .dropdown {
+    display: block;
+    position: absolute;
+}
