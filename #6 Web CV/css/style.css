@@ -1,0 +1,67 @@
+h1, h2{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container{
+    border: 3px solid #000000;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:50px;
+    padding-top:15px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+    width:590px;
+}
+
+.header{
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.pInfo{    
+    width:50%;    
+}
+
+.pImg{    
+    width:50%;    
+    text-align:right;
+}
+
+.profileImg{
+    height:150px;
+}
+
+.aboutMe{
+    border: 3px dotted #333;
+    color:blue;
+    padding:15px;
+    font-size: 19px;
+}
+
+.table-education{
+    width: 100%;
+}
+
+.table-education, .table-education td{
+    border:3px solid purple; 
+    border-collapse: collapse;
+}
+
+.table-languages {
+    width: 100%;
+}
+
+.table-languages, .table-languages td {
+    border:3px solid green;
+    border-collapse: collapse;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.ul-hobbies{
+    list-style-type: square;
+}
+
