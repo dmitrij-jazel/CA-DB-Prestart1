@@ -1,0 +1,91 @@
+h1, h2{
+    font-family: 'Oswald', sans-serif;
+}
+
+p{
+    font-size: 22px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+body{
+    background: url('../img/bg.png'); 
+}
+
+.container{
+    border: 1px solid #c9c9c9;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:50px;
+    padding-top:30px;
+    padding-right: 30px;
+    padding-bottom: 30px;
+    padding-left: 30px;
+    width:590px;
+    background: #fff;
+}
+
+.header{
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.pInfo{    
+    width:50%;    
+}
+
+.pImg{    
+    width:50%;    
+    text-align:right;
+}
+
+.profileImg{
+    height:150px;
+    border-radius: 50%;
+}
+
+.aboutMe{
+    margin-top:30px;
+    border: 3px dotted #333;
+    color:#777;
+    padding:15px;
+    font-size: 19px;
+    font-style: italic;
+
+    
+    padding-top: 0px;
+    font-size: 19px;
+    padding-bottom: 0px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.table-education{
+    width: 100%;
+}
+
+.table-education, .table-education td{
+    border-bottom:1px solid #ddd; 
+    border-bottom:1px solid #ddd; 
+    border-collapse: collapse;
+}
+
+.table-languages {
+    width: 100%;
+}
+
+.table-languages, .table-languages td {
+    border-bottom:1px solid #ddd; 
+    border-bottom:1px solid #ddd; 
+    border-collapse: collapse;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.ul-hobbies{
+    list-style-type: square;
+}
+
