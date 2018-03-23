@@ -23,6 +23,17 @@ body{
     padding-bottom: 30px;
     padding-left: 30px;
     width:590px;
+}
+
+.container-bg{
+    background: red;
+}
+
+.papugos-bg{
+    background:url('../img/parrots.png');
+}
+
+.container-bg-white{
     background: #fff;
 }
 
@@ -89,3 +100,18 @@ body{
     list-style-type: square;
 }
 
+.form-input{
+    margin-bottom: 15px;
+}
+
+.form-input input{
+    padding:10px;
+    width:290px;
+}
+
+.sendMessage{
+    border: 1px solid green;
+    background: lightgreen;
+    font-size: 19px;
+    padding:5px 25px;
+}
