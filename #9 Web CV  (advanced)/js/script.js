@@ -43,7 +43,7 @@ function send(){
     }
 
     // patikrinam varda
-    if(pavarde.length > 0){
+    if(zinute.length > 0){
         //Kai zinute yra tvarkinga
         document.getElementById("message").classList.remove("is-invalid");
         document.getElementById("message_error_msg").innerText = "";
