@@ -124,3 +124,10 @@ body{
     color:red;
     border: 1px solid red;
 }
+
+#firstname_error_msg, #lastname_error_msg, #email_error_msg, #message_error_msg{
+    color:red;
+    font-size: 12px;
+    font-style: italic;
+    display: block;
+}
