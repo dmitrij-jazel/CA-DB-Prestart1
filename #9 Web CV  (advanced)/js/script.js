@@ -4,47 +4,44 @@ function send(){
     let elPastas = document.getElementById("email").value;
     let zinute = document.getElementById("message").value;
 
-    console.log(vardas);
-    console.log(pavarde);
-    console.log(elPastas);
-    console.log(zinute);
-
     // patikrinam varda
     if(vardas.length > 0){
-        console.log("Vardas yra taisingas");
+        document.getElementById("firstname").classList.remove("is-invalid");
     }else{
-        alert("Vardas yra provalomas");
+        document.getElementById("firstname").classList.add("is-invalid");
     }
 
     // patikrinam pavarde
     if(pavarde.length > 0){
-        console.log("Pavarde yra taisinga");
+        // Kai pavarde yra taisinga
+        document.getElementById("lastname").classList.remove("is-invalid");
     }else{
-        alert("Pavarde yra provaloma");
+        //Kai pavarde NERA taisinga
+        document.getElementById("lastname").classList.add("is-invalid");
     }
 
     // patikrinam el.pasta
-    if(elPastas.length > 0){        
+    if(elPastas.length > 0){
         // jeigu el.pasto laukelis nera tuscias - turim patikrinti ar jis yra taisingas
         if (elPastas.match(/[\w-]+@([\w-]+\.)+[\w-]+/g)) {
-            console.log("El pastas yra taisingas");
-            document.getElementById("email").classList.remove("redText");
+            //console.log("El pastas yra taisingas");
+            document.getElementById("email").classList.remove("is-invalid");
         }else{
-            //alert("El pasto forma neteisinga");
-            document.getElementById("email").classList.add("redText");
+            // Kai 
+            document.getElementById("email").classList.add("is-invalid");
         }
     }else{
-        document.getElementById("email").classList.add("redText");
-        //alert("El pastas yra provalomas");
+        // Kai el. pastas YRA TUSCIAS
+        document.getElementById("email").classList.add("is-invalid");
     }
 
     // patikrinam varda
     if(pavarde.length > 0){
-        //console.log("Zinute yra taisinga");
-        document.getElementById("message").classList.remove("redText");
+        //Kai zinute yra tvarkinga
+        document.getElementById("message").classList.remove("is-invalid");
     }else{
-        //alert("Zinute yra provaloma");
-        document.getElementById("message").classList.add("redText");
+        //Kai zinute YRA TUSCIA
+        document.getElementById("message").classList.add("is-invalid");
     }
 
 }
