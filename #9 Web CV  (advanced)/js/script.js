@@ -9,29 +9,42 @@ function send(){
     console.log(elPastas);
     console.log(zinute);
 
+    // patikrinam varda
     if(vardas.length > 0){
         console.log("Vardas yra taisingas");
     }else{
         alert("Vardas yra provalomas");
     }
 
+    // patikrinam pavarde
     if(pavarde.length > 0){
         console.log("Pavarde yra taisinga");
     }else{
         alert("Pavarde yra provaloma");
     }
 
+    // patikrinam el.pasta
     if(elPastas.length > 0){        
-        var re = new RegExp("[\w-]+@([\w-]+\.)+[\w-]+");
-        if (re.test(elPastas)) {
+        // jeigu el.pasto laukelis nera tuscias - turim patikrinti ar jis yra taisingas
+        if (elPastas.match(/[\w-]+@([\w-]+\.)+[\w-]+/g)) {
             console.log("El pastas yra taisingas");
-        } else {
-            alert("El pasto forma neteisinga");
+            document.getElementById("email").classList.remove("redText");
+        }else{
+            //alert("El pasto forma neteisinga");
+            document.getElementById("email").classList.add("redText");
         }
     }else{
-        alert("El pastas yra provalomas");
+        document.getElementById("email").classList.add("redText");
+        //alert("El pastas yra provalomas");
     }
 
-    
+    // patikrinam varda
+    if(pavarde.length > 0){
+        //console.log("Zinute yra taisinga");
+        document.getElementById("message").classList.remove("redText");
+    }else{
+        //alert("Zinute yra provaloma");
+        document.getElementById("message").classList.add("redText");
+    }
 
 }

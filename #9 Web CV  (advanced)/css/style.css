@@ -115,3 +115,7 @@ body{
     font-size: 19px;
     padding:5px 25px;
 }
+
+.redText{
+    color:red;
+}
