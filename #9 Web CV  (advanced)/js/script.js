@@ -1,8 +1,14 @@
+
+
 function send(){
     
     let nera_klaidu = true;
 
     let vardas = document.getElementById("firstname").value;
+    let vardas = $("#firstname").val();
+
+    let vardas = $(".redText").html("laba diena");
+
     let pavarde = document.getElementById("lastname").value;
     let elPastas = document.getElementById("email").value;
     let zinute = document.getElementById("message").value;
