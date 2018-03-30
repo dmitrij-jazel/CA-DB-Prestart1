@@ -1,0 +1,27 @@
+nav {
+    background:#333;
+    padding:15px 0px;
+}
+
+#first {
+    background: url('../img/water.jpg') 0 center;
+    background-size: cover;
+
+    padding-top: 200px;
+    padding-bottom: 200px;
+}
+
+#first h1{
+    font-family: 'Permanent Marker', cursive;
+    color:#fff;
+    font-size: 60px;
+}
+
+#first p{    
+    color:#fff;
+    font-size: 25px;
+}
+
+#first .BigInfo{
+    text-align: center;
+}
