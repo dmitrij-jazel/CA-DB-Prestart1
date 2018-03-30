@@ -30,3 +30,4 @@ $("#textExample3").keyup(function () {
     let t1 = $("#textExample3").val();
     $("#textExample3_result").text(t1);
 });
+
