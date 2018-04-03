@@ -42,3 +42,37 @@ nav ul a:hover{
     -webkit-transition: 1s; /* Safari */
     transition: 1s;
 }
+
+#second{
+    padding-top:30px;
+    padding-bottom: 30px;
+}
+.info-box{    
+    min-height: 50px;
+    text-align: center;
+}
+
+.info-box .article-icon{
+    font-size: 80px;    
+    color:orange;
+}
+
+.info-box .article-heading{
+    font-size: 36px;    
+    color:#333;
+    font-family: 'Permanent Marker', cursive;
+}
+
+.info-box .article-text{
+    font-size: 14px;    
+    color:#999;
+}
+
+
+
+
+
+footer{
+    height: 100px;
+    background: #000;
+}
