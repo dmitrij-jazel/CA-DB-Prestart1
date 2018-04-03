@@ -25,3 +25,20 @@ nav {
 #first .BigInfo{
     text-align: center;
 }
+
+nav ul a{
+    color:#FFF;
+    -webkit-transition: 1s; /* For Safari 3.1 to 6.0 */
+    transition: 1s;
+    border-bottom: 1px solid #333;
+    margin-right: 10px;
+}
+
+nav ul a:hover{
+    color:#fff;
+    text-decoration: underline;
+    border-bottom: 1px solid #FFF;
+
+    -webkit-transition: 1s; /* Safari */
+    transition: 1s;
+}
