@@ -23,14 +23,17 @@
         <nav class="navbar navbar-expand-lg">
             <div class="container">
                 <div id="logo-wrap">
-                    <img src="http://via.placeholder.com/150x70?text=logo" />
+                    <a href="index.html">
+                        <img src="http://via.placeholder.com/150x70?text=logo" />
+                    </a>
+                    
                 </div>
 
                 <div id="nav-wrap collapse navbar-collapse">
                     <ul class="navbar-nav mr-auto">
-                        <li class="nav-item"><a href="#" class="nav-link">About us</a></li>
-                        <li class="nav-item"><a href="#" class="nav-link">Feedback</a></li>
-                        <li class="nav-item"><a href="#" class="nav-link">Contact</a></li>
+                        <li class="nav-item"><a href="aboutus.html" class="nav-link">About us</a></li>
+                        <li class="nav-item"><a href="feedback.html" class="nav-link">Feedback</a></li>
+                        <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
                     </ul>
                 </div>
             </div>
@@ -91,7 +94,7 @@
                                         Bet apple neatsilieka, visi telefonai geri, pakol veikia.
                                     </div>
                                     <div class="article-link">
-                                        <a href="#" class="btn btn-outline-primary">Read more&nbsp;&nbsp;&nbsp;<i class="fas fa-arrow-right"></i></a>
+                                        <a href="http://www.delfi.lt" target="_blank" class="btn btn-outline-primary">Read more&nbsp;&nbsp;&nbsp;<i class="fas fa-arrow-right"></i></a>
                                     </div>
         
                                 </article>
@@ -114,6 +117,53 @@
                     </div>
                 </div>
             </div>            
+        </section>
+
+        <section id="third">
+            <div class="container">
+                <div id="contact_form">
+                    <form>
+                        <div class="row">
+                            <div class="col-6 offset-3">
+                                <!-- Kontaktine forma is CV template -->
+
+                                <div class="container container-bg-white text-center">
+                                    <h1 class="form-header-text">Parašykite mums laiškelį.</h1>
+                                    <div class="contact-form ">
+                                
+                                        <div class="form-group">
+                                            <input class="form-control" type="text" name="firstname" value="" placeholder="Jusu vardas..." id="firstname" />  
+                                            <span id="firstname_error_msg"></span>
+                                        </div>
+                                        <div class="form-group">
+                                            <input class="form-control" type="text" name="lastname" value="" placeholder="Jusu pavarde..." id="lastname" />
+                                            <span id="lastname_error_msg"></span>
+                                        </div>
+                                
+                                        <div class="form-group">
+                                            <input class="form-control" type="text" name="email" value="" placeholder="El. pastas" id="email" />
+                                            <span id="email_error_msg"></span>
+                                        </div>
+                                
+                                        <div class="form-group">
+                                            <input class="form-control" type="text" name="Message" value="" placeholder="Zinute" id="message" />
+                                            <span id="message_error_msg"></span>
+                                        </div>
+                                
+                                        <div class="form-group">
+                                            <div class="">
+                                                <button onclick="send()" type="button" class="btn btn-success" ><i class="far fa-envelope"></i>&nbsp;&nbsp;&nbsp;Siusti zinute</button>
+                                            </div>                                            
+                                        </div>
+                                
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            
         </section>
 
     </main>

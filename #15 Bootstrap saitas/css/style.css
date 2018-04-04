@@ -70,6 +70,24 @@ nav ul a:hover{
     min-height: 75px;
 }
 
+.article-link{
+    margin-top:15px;
+}
+
+#third{
+    background:url("../img/dark-triangles.png");
+}
+
+.form-header-text{
+    color:#fff;
+    font-family: 'Permanent Marker', cursive;
+    margin-bottom: 30px;
+}
+
+#contact_form{
+    padding-top:60px;
+    padding-bottom: 60px;
+}
 
 
 
