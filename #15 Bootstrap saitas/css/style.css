@@ -64,8 +64,10 @@ nav ul a:hover{
 }
 
 .info-box .article-text{
-    font-size: 14px;    
+    font-size: 17px;    
     color:#999;
+    padding:0px 50px;
+    min-height: 75px;
 }
 
 
