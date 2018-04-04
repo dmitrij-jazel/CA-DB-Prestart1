@@ -54,7 +54,7 @@ nav ul a:hover{
 
 .info-box .article-icon{
     font-size: 80px;    
-    color:orange;
+    color:#28a745;
 }
 
 .info-box .article-heading{
@@ -90,9 +90,27 @@ nav ul a:hover{
 }
 
 
+#googlemaps iframe{
+    width:100%;
+    display: block;
+}
 
 
 footer{
-    height: 100px;
+    padding-top:60px;
+    
     background: #000;
+    color:#fff;
+    padding-bottom: 60px;
+}
+
+.social-bar{
+    margin-bottom: 30px;
+}
+
+.social-bar a{
+    color:#fff;
+    font-size: 49px;
+    margin-left:15px;
+    margin-right: 15px;
 }
