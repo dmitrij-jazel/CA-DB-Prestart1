@@ -17,9 +17,31 @@ function Sum(){
     let a_number = Number(txt_a);
     let b_number = Number(txt_b);
 
-    let c = a_number + b_number;
-    //let r = Math.sqrt(c);
-    document.getElementById("result").innerHTML = c;
+    let c = a_number + b_number; // Rezultato skaicius
+    
+    //patikrinti ar skaicius lyginis ar ne
+    if(c % 2){
+        document.getElementById("result").innerHTML = c +" nelyginis skaicius";
+    }else{
+        document.getElementById("result").innerHTML = c +" lyginis skaicius";        
+    }
+
+    if(c == 5){
+        alert("Sveikinam, yra magiskas skaicius!");
+    }
+}
+
+function CheckWords(){
+    var shoppingList = ["Bananas", "Bread", "Milk", "Cookies", "Chips", "Coffee"];
+
+    for(let i = 0; i < shoppingList.length; i++){
+        console.log("Turiu atspausdint shoppingList["+i+"]");
+        console.log(shoppingList[i]);
+    }
+
+    console.log("Atspausdinau viska... viso gero :)");
+
+  
 }
 
 
