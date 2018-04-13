@@ -1,0 +1,34 @@
+body{
+	background:#f5f8fa;
+}
+
+h1{
+	color:#333;
+	font-family: 'Indie Flower', cursive;
+}
+
+
+#btn_search{
+	margin-top:15px;
+}
+
+.error_msg{
+	color:red;
+	font-style:italic;
+}
+
+.is-invalid{
+	border-color:red;
+	background:pink;
+}
+
+.separator{
+	height:1px;
+	background:#aaa;
+	margin-top:10px;
+	margin-bottom:20px;
+}
+
+.carImg{
+	width:300px;
+}

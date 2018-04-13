@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Masinu paieska</title>
+    
+	
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+<script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+
+<link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
+
+
+	<link rel="stylesheet" href="css/style.css"/>
+	
+</head>
+
+<body>
+<main>
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-6">
+				<div>
+					<h1>Car Mini search</h1>
+				</div>
+				<div id="app">
+				<form class="form-inline">		
+				
+				<div class="row">
+					<div class="form-group col-lg-6 col-md-6">
+					<label for="firstname">Brand :</label>
+					<input type="text" name="Brand" class="form-control" id="Brand" placeholder="Brand">
+					
+					</div>
+					<div class="form-group col-lg-6 col-md-6">
+					<label for="lastname">Model:</label>
+					<input type="text" name="Model" class="form-control" id="Model" placeholder="Model">
+					
+					</div>
+				</div>
+				
+				<div class="row">
+					<div class="form-group col-lg-6 col-md-6">
+					<label for="hp_from">HP from *:</label>
+					<input type="text" name="hp_from" class="form-control numeric" rel="Hp from" id="hp_from" placeholder="HP from" value="">
+					
+					</div>
+					<div class="form-group col-lg-6 col-md-6">
+					<label for="hp_to">HP to *:</label>
+					<input type="text" name="hp_to" class="form-control numeric" rel="Hp to" id="hp_to" placeholder="HP to" value="">
+					
+					</div>
+				</div>
+				
+				<div class="row">
+					<div class="form-group col-lg-6 col-md-6">
+						<label for="date_from">Date from *:</label>
+						<input type="date" name="date_from" class="form-control" id="date_from" rel="Date from" placeholder="mm/dd/yyyy">
+					
+					</div>
+					<div class="form-group col-lg-6 col-md-6">
+						<label for="date_to">Date to *:</label>
+						<input type="date" id="date_to"  name="date_to" class="form-control "  placeholder="mm/dd/yyyy" rel="Date to">
+					
+					</div>
+				</div>
+				
+				<div class="form-group">
+					<button type="button" id="btn_search" class="btn btn-primary">Search</button>
+				</div>
+					  
+					</form>
+				</div>
+			</div>
+			<div class="col-lg-6">
+				<div id="result">
+					
+				</div>
+			</div>
+			
+			
+			
+		</div>
+		
+		<div class="row">
+			<div class="col-sm-12">
+				<div id="searchResults">
+					
+				</div>
+			</div>
+		</div>
+	</div>
+</main>
+    
+	
+	<script src="js/CARS.js"></script>
+    <script src="js/Manifacturers.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>

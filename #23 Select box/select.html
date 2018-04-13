@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Select demo</title>
+
+    <script>
+        function GetValue(){
+            let dropdown = document.getElementById("unit");
+            let x = dropdown.options[dropdown.selectedIndex].value;
+            //alert(x);
+
+            if(x == "cm"){
+
+            }else if(x == "inch"){
+                
+            }else if(x == "feet"){
+                
+            }
+            // alert("GetValue() veikia!");
+        }
+    </script>
+</head>
+<body>
+    
+
+    <select id="unit">
+        <option value="cm">cm</option>
+        <option value="inch">coliai</option>
+        <option value="feet">pedos</option>
+    </select>
+    <button type="button" onclick="GetValue()">Test</button>
+</body>
+</html>
