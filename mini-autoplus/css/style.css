@@ -1,0 +1,17 @@
+body{
+    background: url("../img/bg.png");
+}
+
+.content{
+    background: #fff;
+    min-height:100px;
+    padding:20px;
+}
+
+#app{
+
+}
+
+#top{
+    padding-top:100px;
+}
